@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, td, th{
+            border: 1px solid black;
+        }
+        th, td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="form">
+        <table align="center">
+            <tr>
+                <th colspan="2">Fill the form below</th>
+            </tr>
+
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="pass">Password</label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fdback">Feedback</label></td>
+                <td><textarea name="fdback" id="fdback" rows="5" cols="30"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Subject</td>
+                <td>
+                    <input type="checkbox" id="web" name="subject" value="web">
+                    <label for="web">Web</label>
+                    <input type="checkbox" name="subject" id="math" value="math">
+                    <label for="math">Math</label>
+                    <input type="checkbox" id="graphics" name="subject" value="subject">
+                    <label for="graphics">Graphics</label>
+                    <input type="checkbox" id="english" name="subject" value="english">
+                    <label for="english">English</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td style="text-align: center;">
+                    <input type="reset" value="Reset All">
+                    <input type="submit" value="Submit Above Details">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
