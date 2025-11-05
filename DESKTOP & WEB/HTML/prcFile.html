@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function checkWeather(temp) {
+            if (temp < 20) {
+                return "It’s cold today";
+            } else if (temp > 25) {
+                return "It’s too warm today.";
+            } else {
+                return "The weather is nice.";
+            }
+        }
+        var result1 = checkWeather(15);
+        var result2 = checkWeather(27);
+        document.getElementById("demo").innerHTML = result1 + "<br>" + result2;
+    </script>
+</body>
+
+</html>
