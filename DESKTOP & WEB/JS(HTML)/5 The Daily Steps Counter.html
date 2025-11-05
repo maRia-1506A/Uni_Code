@@ -1,0 +1,32 @@
+<!-- Problem: You are given an array of steps taken each day for a week. Use a for loop to calculate
+the total number of steps.
+• Sample Input:
+    dailySteps = [5021, 7503, 4987, 10050, 8010, 6500, 7899]
+• Sample Output:
+    Total steps for the week: 49970 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function stepCounter() {
+            const dailySteps = [5021, 7503, 4987, 10050, 8010, 6500, 7899];
+            var count = 0;
+            for (let i = 0; i < dailySteps.length; i++) {
+                count += dailySteps[i];
+            }
+            document.getElementById("demo").innerHTML = "Total steps for the week: " + count;
+        }
+        stepCounter();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!-- Problem: Create a function named calculateArea that takes two arguments, width and height.
+The function should return the area of the rectangle (Area=widthtimesheight).
+• Sample Input (calling the function):
+    calculateArea(10, 8)
+• Sample Output (from the return value):
+    80 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function calculateArea(width, height) {
+            var h = height, w = width, total;
+            total = w * h;
+            return total;
+        }
+        document.getElementById("demo").innerHTML = calculateArea(10, 8);
+    </script>
+</body>
+
+</html>

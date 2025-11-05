@@ -1,0 +1,28 @@
+<!-- Problem: Write a function reverseWord that takes a single string (a word) as an argument and
+returns the word spelled backward.
+• Sample Input:
+    reverseWord("JavaScript")
+• Sample Output:
+    "tpircSavaJ" -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function reverseWord(word) {
+            var w = word;
+            return w.split("").reverse().join("");
+        }
+        document.getElementById("demo").innerHTML = reverseWord("JavaScript");
+    </script>
+</body>
+
+</html>

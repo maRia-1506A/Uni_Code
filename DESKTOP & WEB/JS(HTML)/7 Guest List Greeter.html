@@ -1,0 +1,34 @@
+<!-- Problem: Given an array of guest names, use a for...of loop to iterate through the array and print
+a welcome message for each guest.
+• Sample Input:
+    guestList = ["Bob", "Charlie", "Denise"]
+• Sample Output:
+    Welcome to the party, Bob!
+    Welcome to the party, Charlie!
+    Welcome to the party, Denise! -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function greeter() {
+            const guestList = ["Bob", "Charlie", "Denise"];
+            var display = "";
+            for (var i = 0; i < guestList.length; i++) {
+                display += "Welcome to the party, " + guestList[i] + "!<br>";
+            }
+            document.getElementById("demo").innerHTML = display;
+        }
+        greeter();
+    </script>
+</body>
+
+</html>

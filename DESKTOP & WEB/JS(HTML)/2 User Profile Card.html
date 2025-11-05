@@ -1,0 +1,34 @@
+<!-- Problem: Create variables to store a user's name, age, and whether they are a student
+(boolean). Combine these variables into a single string that introduces the user.
+• Sample Input (as variable values):
+    name = "Alice"
+    age = 21
+    isStudent = true
+• Sample Output (in console):
+    Name: Alice, Age: 21, Student: Yes -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        let name = "Alice", age = 21, isStudent = true, text;
+
+        if (isStudent == true) {
+            text = "Yes";
+        } else {
+            text = "No";
+        }
+
+        document.getElementById("demo").innerHTML = "Name: " + name + ", Age: " + age + ", Student: " + text;
+    </script>
+</body>
+
+</html>

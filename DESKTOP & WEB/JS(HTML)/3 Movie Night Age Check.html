@@ -1,0 +1,38 @@
+<!-- Problem: Write a program that checks if a person's age is 18 or over. Display one message if they
+are allowed to watch and another if they are not.
+• Sample Input 1:
+    userAge = 25
+• Sample Output 1:
+    Welcome! You are old enough to watch this movie.
+• Sample Input 2:
+    userAge = 16
+• Sample Output 2:
+    Sorry, you are not old enough to watch this movie. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function ageCheck(age) {
+            if (age >= 18) {
+                return "Welcome! You are old enough to watch this movie."
+            } else {
+                return "Sorry, you are not old enough to watch this movie."
+            }
+        }
+
+        let age1 = ageCheck(25);
+        let age2 = ageCheck(16);
+        document.getElementById("demo").innerHTML = age1 + "<br>" + age2;
+    </script>
+</body>
+
+</html>

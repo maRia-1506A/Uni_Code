@@ -1,0 +1,41 @@
+<!-- Problem: Write a program that uses a for loop to count down from 10 to 1, and then prints
+"Blast Off!".
+• Sample Input: (None)
+• Sample Output:
+    10
+    9
+    8
+    7
+    6
+    5
+    4
+    3
+    2
+    1
+    Blast Off! -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function countDown(n) {
+            var digits = "";
+            for (var i = n; i >= 1; i--) {
+                digits += i + "<br>";
+            }
+            return digits;
+        }
+        let result = countDown(10);
+        document.getElementById("demo").innerHTML = result + "Blast Off!"
+    </script>
+
+</body>
+
+</html>

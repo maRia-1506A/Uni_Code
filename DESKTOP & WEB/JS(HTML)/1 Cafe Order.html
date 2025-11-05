@@ -1,0 +1,30 @@
+<!-- Problem: Declare variables for the price of a coffee, a pastry, and the number of coffees and
+pastries ordered. Calculate and display the total cost.
+• Sample Input (as variable values):
+    coffeePrice = 5
+    pastryPrice = 3.5
+    coffeeQuantity = 2
+    pastryQuantity = 1
+• Sample Output (in console):
+    The total cost of your order is $13.5. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        let coffeePrice = 5, coffeeQuantity = 2, pastryPrice = 3.5, pastryQuantity = 1;
+        let result = (coffeePrice * coffeeQuantity) + (pastryPrice * pastryQuantity);
+
+        document.getElementById("demo").innerHTML = "The total cost of your order is $" + result;
+    </script>
+</body>
+
+</html>
