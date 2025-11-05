@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #table1, #table1 td{
+            border: 1px solid palevioletred;
+            width: 400px;
+            height: 200px;
+            text-align: center;
+        }
+
+        #table2{
+            border: 1px solid purple;
+            width: 200px;
+            margin-left: 35px;
+        }
+        
+        #table2 td{
+            height: 50px;
+            border: 1px solid purple;
+        }
+
+        #tag{
+            font-family: "Libre Baskerville", serif;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 120px;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <table id="table1">
+        <tr >
+            <td>Table 1</td>J
+            <td> Table 1
+                <table id="table2">
+                    <tr >
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Table 1</td>
+            <td id="tag">&lt;/&gt;</td>
+        </tr>
+    </table>
+</body>
+</html>

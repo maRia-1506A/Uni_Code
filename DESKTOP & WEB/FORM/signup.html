@@ -8,59 +8,71 @@
 </head>
 
 <body>
-    <h1>Sign Up</h1>
-    <p>It's quick and easy</p>
-    <hr>
+    <div>
+        <h1>Sign Up</h1>
+        <p>It's quick and easy</p>
+        <hr>
+    </div>
     <form>
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name"> <br><br>
-        <input type="text" placeholder="Email or Phone Number"><br><br>
-        <input type="password" placeholder="New Password"> <br><br>
+        <div>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name"> <br><br>
+        </div>
+        <input type="email" placeholder="Email or Phone Number"><br><br>
+        <div>
+        </div>
+        <div>
+            <input type="password" placeholder="New Password"> <br><br>
+        </div>
+        <div>
+            <label for="bd">Birthday</label><br>
+            <select name="bd" id="bd">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="Sep">Sep</option>
+                <option value="Oct">Oct</option>
+                <option value="Nov">Nov</option>
+                <option value="Dec">Dec</option>
+            </select>
+            <select name="bd" id="bd">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <select name="bd" id="bd">
+                <option value="2002">2002</option>
+                <option value="2001">2001</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+                <option value="1998">1998</option>
+            </select><br><br>
+        </div>
+        <div>
 
-        <label for="bd">Birthday</label><br>
-        <select name="bd" id="bd">
-            <option value="Jan">Jan</option>
-            <option value="Feb">Feb</option>
-            <option value="Mar">Mar</option>
-            <option value="Apr">Apr</option>
-            <option value="May">May</option>
-            <option value="June">June</option>
-            <option value="July">July</option>
-            <option value="Sep">Sep</option>
-            <option value="Oct">Oct</option>
-            <option value="Nov">Nov</option>
-            <option value="Dec">Dec</option>
-        </select>
-        <select name="bd" id="bd">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-        </select>
-        <select name="bd" id="bd">
-            <option value="2002">2002</option>
-            <option value="2001">2001</option>
-            <option value="2000">2000</option>
-            <option value="1999">1999</option>
-            <option value="1998">1998</option>
-        </select><br><br>
+            <label for="gnd">Gender</label><br>
+            Female <input type="radio" id="gnd" name="gnd" value="Female">
+            Male <input type="radio" id="gnd" name="gnd" value="Male">
+            Custome <input type="radio" id="gnd" name="gnd" value="Custome"><br><br>
+        </div>
 
-        <label for="gnd">Gender</label><br>
-        Female <input type="radio" id="gnd" name="gnd" value="Female">
-        Male <input type="radio" id="gnd" name="gnd" value="Male">
-        Custome <input type="radio" id="gnd" name="gnd" value="Custome"><br><br>
-
-        <button type="submit"
-            style="background-color: green; color: white; padding: 8px 30px; border:none; border-radius: 5px">Sign
-            Up
-        </button>
-
+        <div>
+            <button type="submit"
+                style="background-color: green; color: white; padding: 8px 30px; border:none; border-radius: 5px">Sign
+                Up
+            </button>
+        </div>
     </form>
 </body>
 
