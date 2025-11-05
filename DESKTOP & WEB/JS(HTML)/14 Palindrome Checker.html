@@ -1,0 +1,39 @@
+<!-- Problem: Write a function isPalindrome that takes a string as input. It should return true if the
+string is a palindrome and false otherwise. The check should be case-insensitive.
+• Sample Input 1:
+    isPalindrome("Racecar")
+• Sample Output 1:
+    true
+• Sample Input 2:
+    isPalindrome("Hello")
+• Sample Output 2:
+    false -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function isPalindrome(str) {
+            var original = str.toLowerCase();
+            var reverse = original.split("").reverse().join("");
+            if (original == reverse) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        var result1 = isPalindrome("Racecar");
+        var result2 = isPalindrome("Hello");
+        document.getElementById("demo").innerHTML = result1 + "<br>" + result2;
+    </script>
+</body>
+
+</html>

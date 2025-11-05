@@ -1,0 +1,35 @@
+<!-- Problem: Write a function filterByPrice that takes an array of item prices and a minimumPrice. It
+should return a new array containing only the prices that are greater than or equal to the
+minimumPrice.
+• Sample Input:
+    prices = [10, 25, 8, 42, 15, 5]
+    minimumPrice = 20
+• Sample Output:
+    [25, 42] -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function filterByPrice(prices, minimumPrice) {
+            var prc = prices, minPr = minimumPrice, newArr = [];
+            for (var i = 0; i < prc.length; i++) {
+                if (prc[i] >= minPr) {
+                    newArr.push(prc[i]); 5
+                }
+            }
+            return newArr;
+        }
+        document.getElementById("demo").innerHTML = filterByPrice([10, 25, 8, 42, 15, 5], 20);
+    </script>
+</body>
+
+</html>

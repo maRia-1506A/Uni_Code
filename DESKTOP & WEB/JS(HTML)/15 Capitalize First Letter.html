@@ -1,0 +1,33 @@
+<!-- Problem: Write a function capitalizeNames that takes an array of names (all lowercase) and
+returns a new array with each name's first letter capitalized.
+• Sample Input:
+    names = ["john", "mary", "peter"]
+• Sample Output:
+    ["John", "Mary", "Peter"] -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function capitalizeNames(names) {
+            var newArr = [];
+            for (var i = 0; i < names.length; i++) {
+                var capital = names[i].charAt(0).toUpperCase() + names[i].slice(1);
+                newArr.push(capital);
+            }
+            return newArr;
+        }
+        document.getElementById("demo").innerHTML = capitalizeNames(["john", "mary", "peter"])
+    </script>
+
+</body>
+
+</html>
