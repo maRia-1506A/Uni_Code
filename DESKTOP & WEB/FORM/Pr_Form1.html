@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Pr_Form1.js">
+        <h3>Registration Form</h3>
+        <div>
+            <label for="fname">First Name: </label>
+            <input type="text" placeholder="Enter First Name" id="fname" name="fname">
+        </div><br>
+
+        <div>
+            <label for="lname">Last Name: </label>
+            <input type="text" placeholder="Enter Last Name" id="lname" name="lname">
+        </div><br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Enter Email Address" id="email" name="email">
+        </div><br>
+
+        <div>
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" name="pass"><br>
+        </div><br>
+
+        <div>
+            <label for="gender">Gender: </label>
+            <input type="radio" id="gender" name="gender" value="male"> Male
+            <input type="radio" id="gender" name="gender" value="female"> Female
+            <input type="radio" id="gender" name="gender" value="others"> Others
+        </div><br>
+
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+        </div><br>
+        
+        <div>
+            <label for="age">Age: </label>
+            <input type="number" min="0" max="200">
+        </div><br>
+
+        <div>
+            <label for="pref">Preferences: </label>
+            <input type="checkbox" id="pref" name="paint1" value="Arcylic"> Arcylic Painting
+            <input type="checkbox" id="pref" name="paint2" value="Oil"> Oil Painting
+            <input type="checkbox" id="pref" name="paint3" value="Water"> Water Color Painting
+        </div><br>
+
+        <div>
+            <label for="job">Select Occupation: </label>
+            <select name="job" id="job">
+                <option value="Student">Student</option>
+                <option value="Worker">Worker</option>
+                <option value="Govt Worker">Govt Worker</option>
+                <option value="N/A">N/A</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="bio">Bio: </label>
+            <textarea name="bio" id="bio" placeholder="Share few lines about yourself..." rows="10" cols="30"></textarea>
+        </div><br>
+
+        <div>
+            <button type="reset" onclick="alert('Are you sure?')">Reset</button>
+            <button type="submit" onclick="alert('Do you want to submit?')">Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>

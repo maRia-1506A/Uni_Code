@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Pr_Form2.css">
+</head>
+
+<body>
+    <form action="Pr_Form1.js">
+        <h1>Student Registration Form</h1>
+        <div>
+            <label for="roll">Roll No: </label>
+            <input type="text" id="roll" name="roll">
+        </div><br>
+
+        <div>
+            <label for="fname">Student Name: </label>
+            <input type="text" placeholder="First Name" id="fname" name="fname"> -
+            <input type="text" placeholder="Last Name" id="lname" name="lname">
+
+        </div><br>
+
+        <div>
+            <label for="father">Father's Name: </label>
+            <input type="text" id="father" name="father">
+        </div><br>
+
+
+        <div>
+            <label for="dob">Date of Birth: </label>
+            <input type="text" id="dob" name="dob" size="3" placeholder="Day"> -
+            <input type="text" id="dob" name="dob" size="3" placeholder="Month"> -
+            <input type="text" id="dob" name="dob" size="5" placeholder="Year">
+            <span><i>(DD-MM-YYYY)</i></span>
+        </div><br>
+
+        <div>
+            <label for="mob">Mobile No: </label>
+            <input type="text" placeholder="+88" size="2"> -
+            <input type="text">
+        </div><br>
+
+        <div>
+            <label for="email">Email Id: </label>
+            <input type="email" placeholder="Enter Email Address" id="email" name="email">
+        </div><br>
+
+        <div>
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" name="pass"><br>
+        </div><br>
+
+        <div>
+            <label for="gender">Gender: </label>
+            <input type="radio" id="gender" name="gender" value="male"> Male
+            <input type="radio" id="gender" name="gender" value="female"> Female
+            <input type="radio" id="gender" name="gender" value="others"> Others
+        </div><br>
+
+        <div>
+            <label for="d">Department: </label>
+            <input type="checkbox" name="dept" value="CSE" id="dept">
+            <label for="dept">CSE</label>
+            <input type="checkbox" name="dept1" value="IT" id="dept1">
+            <label for="dept1">IT</label>
+            <input type="checkbox" name="dept2" value="ECE" id="dept2"> ECE
+            <label for="dept2">CSE</label>
+            <input type="checkbox" name="dept3" value="Civil" id="dept3"> Civil
+            <label for="dept3">CSE</label>
+
+            <input type="checkbox" name="dept4" value="Mech" id="dept4"> Mech
+            <label for="dept4">CSE</label>
+
+        </div><br>
+
+        <div>
+            <label for="course">Course: </label>
+            <select name="course" id="course">
+                <option>----------Select Current Courses----------</option>
+                <option value="Database">Database</option>
+                <option value="Algorithm">Algorithm</option>
+                <option value="Data Structure">Data Structure</option>
+                <option value="Computer Architecture">Computer Architecture</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="pic">Student Photo: </label>
+            <input type="file" name="pic" id="pic">
+        </div><br>
+
+        <div>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+        </div><br>
+
+        <div>
+            <label for="address">Address: </label>
+            <textarea></textarea>
+        </div><br>
+
+        <div>
+            <button type="submit" onclick="alert('Do you want to register?')">Register</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
