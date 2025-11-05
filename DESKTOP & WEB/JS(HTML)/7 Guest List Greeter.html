@@ -22,8 +22,8 @@ a welcome message for each guest.
         function greeter() {
             const guestList = ["Bob", "Charlie", "Denise"];
             var display = "";
-            for (var i = 0; i < guestList.length; i++) {
-                display += "Welcome to the party, " + guestList[i] + "!<br>";
+            for (const i of guestList) {
+                display += "Welcome to the party, " + i + "!<br>";
             }
             document.getElementById("demo").innerHTML = display;
         }
