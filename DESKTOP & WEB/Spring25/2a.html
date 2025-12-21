@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button class="btn">First Button</button>
+    <button class="btn">Second Button</button>
+    <button class="btn">Third Button</button>
+
+    <script>
+        let newButton = document.getElementsByClassName('btn');
+
+        for (var i = 0; i < newButton.length; i++) {
+            newButton[i].addEventListener('click', function () {
+                this.style.backgroundColor = 'green';
+                console.log("Button Clicked");
+            })
+        }
+    </script>
+    
+    <!-- using query selector
+    <script>
+        document.querySelector('.btn').addEventListener('click', function () {
+            this.style.backgroundColor = 'green';
+            console.log("Button Clicked");
+        })
+    </script> -->
+</body>
+
+</html>

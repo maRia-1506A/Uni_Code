@@ -30,7 +30,7 @@ if($connection->connect_error) {
 </body>
 </html>
 
-<?php
+<?php include 'config.php';
     if($_SERVER['REQUEST_METHOD']=='POST') {
         $name=$_POST['name'];
         $roll=$_POST['roll'];
