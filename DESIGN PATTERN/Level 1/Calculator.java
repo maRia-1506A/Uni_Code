@@ -1,23 +1,14 @@
-import java.util.Scanner;
-import java.lang.*;;
-
 public class Calculator {
-    double n1, n2;
 
-    Calculator(double n1, double n2) {
-        this.n1= n1;
-        this.n2= n2;
-    }
-
-    public double addition() {
+    public int addition(int n1, int n2) {
         return n1+n2;
     }
 
-    public double subtraction() {
+    public int subtraction(int n1, int n2) {
         return n1-n2;
     }
 
-    public double multiplication() {
+    public int multiplication(int n1, int n2) {
         return n1*n2;
     }
 
@@ -26,10 +17,10 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        Calculator c= new Calculator(10, 20);
-        System.out.println("Addition: "+c.addition());
-        System.out.println("Subtraction: "+c.subtraction());
-        System.out.println("Multiplication: "+c.multiplication());
+        Calculator c= new Calculator();
+        System.out.println("Addition: "+c.addition(10,20));
+        System.out.println("Subtraction: "+c.subtraction(10,20));
+        System.out.println("Multiplication: "+c.multiplication(10,20));
         System.out.println("Division: "+c.division(100, 200));
     }
 }
