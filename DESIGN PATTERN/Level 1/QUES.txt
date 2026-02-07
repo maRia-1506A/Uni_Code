@@ -1,0 +1,9 @@
+Level 1: Beginner (Core OOP Building Blocks)
+
+Topic: Classes and Objects
+Create a class Student with attributes: name, id, and cgpa. Write methods to display
+student information.
+Create a Calculator class with methods for addition, subtraction, multiplication, and
+division.
+Create a class Rectangle with length and width as attributes. Include a method to
+calculate and return the area.
