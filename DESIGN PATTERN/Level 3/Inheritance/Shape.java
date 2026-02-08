@@ -1,3 +1,5 @@
+// Create Shape, Circle, and Triangle classes to demonstrate hierarchical inheritance.
+
 public class Shape {
     public void draw() {
         System.out.println("Draw a shape");

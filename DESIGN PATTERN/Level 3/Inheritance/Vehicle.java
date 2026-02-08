@@ -1,3 +1,5 @@
+// Create a base class Vehicle and a derived class Car to demonstrate single inheritance.
+
 public class Vehicle {
 
     public void move(){

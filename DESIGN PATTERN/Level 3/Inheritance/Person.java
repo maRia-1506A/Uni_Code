@@ -1,3 +1,5 @@
+// Create classes Person -> Employee -> Manager to demonstrate multilevel inheritance.
+
 public class Person {
     String name;
 }
