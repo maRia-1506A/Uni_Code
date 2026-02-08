@@ -1,3 +1,6 @@
+/**Create a Grade class with private marks for three subjects. Provide methods to input
+marks, calculate average, and determine grade.**/
+
 public class Grade {
     private float m1, m2, m3;
 

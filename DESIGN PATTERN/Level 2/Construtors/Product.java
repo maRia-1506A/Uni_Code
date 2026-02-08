@@ -1,3 +1,5 @@
+// Create a Product class with productId, productName, and price initialized using a constructor.
+
 public class Product {
     int productId;
     String productName;

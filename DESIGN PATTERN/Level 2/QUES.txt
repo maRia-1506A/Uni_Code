@@ -1,13 +1,10 @@
 Level 2: Intermediate (Encapsulation & Constructors)
 
 Topic: Encapsulation
-Create a BankAccount class with private attributes and public methods deposit(),
-withdraw(), checkBalance().
+Create a BankAccount class with private attributes and public methods deposit(),withdraw(), checkBalance().
 Create a Grade class with private marks for three subjects. Provide methods to input
 marks, calculate average, and determine grade.
 
 Topic: Constructors
-Create an Employee class with attributes name, id, salary and both default and
-parameterized constructors.
-Create a Product class with productId, productName, and price initialized using a
-constructor.
+Create an Employee class with attributes name, id, salary and both default and parameterized constructors.
+Create a Product class with productId, productName, and price initialized using a constructor.

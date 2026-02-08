@@ -1,3 +1,5 @@
+// Create a BankAccount class with private attributes and public methods deposit(),withdraw(), checkBalance().
+
 public class BankAccount {
     private double balance;
 

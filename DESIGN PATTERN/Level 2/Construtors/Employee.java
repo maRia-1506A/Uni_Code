@@ -1,3 +1,5 @@
+// Create an Employee class with attributes name, id, salary and both default and parameterized constructors.
+
 public class Employee {
     String name;
     int id;

@@ -1,3 +1,6 @@
+/**Create a class Rectangle with length and width as attributes. Include a method to 
+calculate and return the area.**/
+
 public class Rectangle {
     float length, width;
 
