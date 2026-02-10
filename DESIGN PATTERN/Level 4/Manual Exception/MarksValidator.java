@@ -1,7 +1,6 @@
-/*
-Create a class MarksValidator with a method validate(int marks). If marks is outside
-0-100, throw an IllegalArgumentException with a clear message.
-*/
+/*Create a class MarksValidator with a method validate(int marks). If marks is outside
+0-100, throw an IllegalArgumentException with a clear message.*/
+
 public class MarksValidator {
     public void validate(int marks) {
         if (marks < 0 || marks > 100) {

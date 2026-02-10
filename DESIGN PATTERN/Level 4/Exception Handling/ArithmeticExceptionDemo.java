@@ -1,3 +1,5 @@
+// Write a program that handles ArithmeticException when dividing by zero.
+
 public class ArithmeticExceptionDemo {
     public static void main(String[] args) {
         try {
