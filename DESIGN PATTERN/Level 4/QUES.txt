@@ -1,0 +1,29 @@
+Level 4: Advanced (Interfaces, Composition, Access Modifiers, Exception Handling, Static & Final)
+
+Topic: Interface
+Create an interface Drivable with methods start() and stop() implemented by Car and Bike.
+Create interfaces Flyable and Swimmable, implement both in a class Duck.
+
+*Topic: Composition (Has-A Relationship)
+Create classes Professor and Department where Department has one or more Professors.
+Create a Library class containing a list of Book objects.
+
+Topic: Access Modifiers
+Create a class Student with private fields (name, id, cgpa). Provide public getters and
+setters. Write a separate class StudentTest to verify that fields cannot be accessed directly.
+Create a base class Person with a protected field nationalId. Create a subclass
+Employee in a different package and show that Employee can access nationalId through inheritance.
+
+Topic: Exception Handling
+Write a program that handles ArithmeticException when dividing by zero.
+*Write a program that reads a text file using BufferedReader and handles IOException.
+*Write a program that takes an integer input as a string and handles
+NumberFormatException if the input is not a valid number.
+
+Subtopic: throw (Manual exception throwing)
+Create a class MarksValidator with a method validate(int marks). If marks is outside
+0-100, throw an IllegalArgumentException with a clear message.
+
+Subtopic: throws (Declaring exceptions in method signature)
+*Create a method readFirstLine(String path) that uses BufferedReader and throws
+IOException. Call it from main using try-catch.

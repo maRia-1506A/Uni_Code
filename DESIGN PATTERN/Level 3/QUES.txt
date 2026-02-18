@@ -1,0 +1,15 @@
+Level 3: Object Relationships (Inheritance, Polymorphism, Abstraction)
+
+Topic: Inheritance
+Create a base class Vehicle and a derived class Car to demonstrate single inheritance.
+Create classes Person -> Employee -> Manager to demonstrate multilevel inheritance.
+Create Shape, Circle, and Triangle classes to demonstrate hierarchical inheritance.
+
+Topic: Method Overloading & Overriding
+Create overloaded methods in a class AreaCalculator to calculate area for different shapes.
+Create Animal, Dog, and Cat classes where Dog and Cat override makeSound().
+
+Topic: Abstraction
+Create an abstract class Payment and subclasses CreditCardPayment and
+PayPalPayment implementing processPayment().
+Create an abstract class Shape and implement concrete Rectangle and Circle classes.
