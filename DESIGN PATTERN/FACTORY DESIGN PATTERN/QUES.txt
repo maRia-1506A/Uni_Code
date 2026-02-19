@@ -1,0 +1,14 @@
+1. You are developing a payment system in an online marketplace. Depending on the user's
+choice, the application must support multiple payment types:
+    ● Some payments are done through Credit Card
+    ● Some through PayPal
+    ● Some through Bank Transfer
+The main application must not instantiate payment types directly. Instead, a PaymentFactory
+will be responsible for creating the correct payment object.
+Required Components:
+    ● Payment (interface)
+    ● CreditCardPayment, PayPalPayment, BankTransferPayment (concrete classes)
+    ● PaymentFactory (factory class)
+    ● MarketplaceClient (client class)
+Construct a proper JAVA code demonstrating this implementation so that the client can use
+payments without knowing the exact payment class.
