@@ -1,0 +1,10 @@
+In an online university learning platform, a SystemLogger is responsible for recording all
+system events such as login attempts, file uploads, errors, and administrative actions.
+For auditing and debugging purposes, only one SystemLogger instance must exist in the
+entire application so that all logs are written to a single centralized log file. Two modules in the
+system Course Management Module and Online Exam Module—must use the same
+SystemLogger instance. Tasks:
+    1. Create a SystemLogger class that ensures that only one SystemLogger object is
+    created in the application.
+    2. Show how the Course Management Module and Online Exam Module access the
+    same SystemLogger instance.
