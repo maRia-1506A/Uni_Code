@@ -1,0 +1,10 @@
+An online game allows players to create different types of characters such as Warrior,
+Archer, and Mage. Each character has attributes like health, attack power, defense, and special
+abilities. Players should be able to duplicate an existing character and then modify the clone
+(e.g., change weapon, increase skill level) without affecting the original.
+Design a solution that allows character objects to be cloned and customized independently.
+You must use:
+    ● GameCharacter (interface or abstract class)
+    ● Concrete classes: Warrior, Archer, Mage
+    ● A GameClient that clones and modifies characters
+Build the necessary Java code to develop this system
