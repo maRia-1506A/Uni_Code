@@ -25,7 +25,7 @@ class CourseManagementModule {
     public void cousrse() {
         // Access (object) same SystemLogger instance
         SystemLogger logger = SystemLogger.methodLogger();
-        System.out.println("Course management successful");
+        logger.log("Course management successful");
     }
 }
 
@@ -33,7 +33,7 @@ class OnlineExamModule {
     public void exam() {
         // Access (object) same SystemLogger instance
         SystemLogger logger = SystemLogger.methodLogger();
-        System.out.println("Online exam successful");
+        logger.log("Online exam successful");
     }
 }
 
