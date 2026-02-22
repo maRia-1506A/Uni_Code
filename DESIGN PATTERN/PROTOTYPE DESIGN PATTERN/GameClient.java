@@ -1,7 +1,6 @@
 // interface with clone method 
 interface GameCharacter {
     GameCharacter clone();
-
     void display();
 }
 
