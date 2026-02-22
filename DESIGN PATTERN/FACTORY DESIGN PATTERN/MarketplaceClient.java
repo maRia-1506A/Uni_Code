@@ -1,4 +1,4 @@
-// interface (WHAT payment can do)
+// interface (WHAT payment can do......)
 interface paymentInterface{
     String pay (double amount);
 }
