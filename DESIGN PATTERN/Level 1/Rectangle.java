@@ -12,6 +12,6 @@ public class Rectangle {
         Rectangle rc= new Rectangle();
         rc.length=5;
         rc.width=6;
-        System.out.println("The area of the rectangle is: "+rc.area());
+        System.out.println("The area of the rectangle is:"+rc.area());
     }
 }
