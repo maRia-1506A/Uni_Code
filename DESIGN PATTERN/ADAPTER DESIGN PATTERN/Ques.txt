@@ -1,0 +1,4 @@
+At DIU Smart Result System, system accepts JSON only. Old modules provide XML.
+Determine structural pattern, draw class diagram idea, and implement using classes
+JSONData, OldXMLModule, XMLToJSONAdapter, DIUSmartResultSystem, Test.
+
