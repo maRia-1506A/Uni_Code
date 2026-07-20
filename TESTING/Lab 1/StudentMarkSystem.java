@@ -1,5 +1,4 @@
-
-/* Lab Task 1
+/* Lab Task 1 (Java Basic)
 Write a Java program for a Student Marks System that performs the following tasks:
     Create a void method named showMessage() that displays a welcome message.
     Create a non-void method named calculateAverage() that takes three integer marks as parameters and returns their average.
