@@ -1,0 +1,5 @@
+Scenario: E-Commerce Order Placement System
+Customer clicks “Place Order” — but internally, many services must run:
+Check Inventory
+Calculate shipping
+Process payment

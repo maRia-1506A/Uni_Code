@@ -1,0 +1,5 @@
+At DIU, students can register for courses. The process involves:
+checking course availability (CourseCatalog), verifying fee payment (FeeSystem), and allocating a seat (SeatAllocation). 
+Students should register by calling only one method without interactiong with the internal steps. 
+Apply the proper design pattern using classes: 
+CourseCatalog, FeeSystem, SeatAllocation, StudentRegistration, Test.

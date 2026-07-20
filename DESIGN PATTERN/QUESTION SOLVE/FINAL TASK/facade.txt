@@ -1,0 +1,7 @@
+A university is developing an Online Exam System. To start an exam session, several internal
+subsystems must be initialized:
+    ● AuthenticationService → verifies student credentials
+    ● QuestionService → loads exam questions
+    ● TimerService → starts the exam timer
+The university wants to design a system where the client(student) can simply interact with the system at
+front and the sub systems are controlled automatically.

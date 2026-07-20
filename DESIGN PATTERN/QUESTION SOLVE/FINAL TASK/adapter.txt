@@ -1,0 +1,6 @@
+Task-2: A Library management system platform used to accept and process PDF-based file format for
+indexing books and research papers. Now the Library has decided to use an Ebook-based file format to
+index all the books and papers as well. The client class is a book file request to open/access. The book
+file can be opened both as a PDF file and as an Ebook file. Connect these outside file formats with the
+library management system. Access all the classes and methods from a Main class. Implement an
+appropriate Design Pattern by writing a Java code.

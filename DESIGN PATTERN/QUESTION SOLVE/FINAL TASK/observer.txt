@@ -1,0 +1,3 @@
+In a Smart Classroom Notification System, Students & Teachers both can subscribe &
+unsubscribe. Notifications are updated when: Class Routine is Published & Exam routine is
+Published. Write the Java code of the appropriate Design Pattern for this scenario.
