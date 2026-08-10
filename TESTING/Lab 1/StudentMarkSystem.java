@@ -5,7 +5,7 @@ Write a Java program for a Student Marks System that performs the following task
     Store the marks of three subjects in an integer array in the main method.
     Create a void method named displayMarks() that traverses the array and prints all the marks.*/
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class StudentMarkSystem {
     // welcome msg

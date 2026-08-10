@@ -30,13 +30,12 @@ public class ATMverfication {
             } else {
                 System.out.println("Incorrect PIN");
                 attempts++;
+            }
 
-                if (attempts == max_attepms) {
-                    System.out.println("Card Blocked");
-                }
+            if (attempts == max_attepms) {
+                System.out.println("Card Blocked");
             }
         }
-
         sc.close();
 
     }
